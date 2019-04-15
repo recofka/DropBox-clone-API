@@ -3,7 +3,7 @@
 ## [ Check out the deployed version here!](https://hidden-shore-25474.herokuapp.com)
 ## What this project is about
 
-This is my own attempt at the week 4 React/Redux group project the students do during the Academy. For more info why I am doing this checkout: **[Goals for this project](#goals-for-this-project)**
+This is an API rest  to provide data to a application called by DropBox-clone. For more info why I am doing this checkout: **[Goals for this project](#goals-for-this-project)**
 
 ## Table of contents:
 
