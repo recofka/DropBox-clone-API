@@ -5,6 +5,11 @@ class BoxController {
         const box = await Box.create({ title: req.body.title });
         return res.json(box);
     }
+
+    async show(req, res) {
+        const box = await Box.findById(req.params.id)
+        return res.json(box);
+    }
 }
 
 module.exports = new BoxController();
