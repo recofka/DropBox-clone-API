@@ -2,9 +2,8 @@ const express = require('express');
 
 const app = express();
 
-app.use.apply(express.json());
-app.get("/", (req, res) =>{
-    return res.send("basic server is running")
-});
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(require('./routes'));
 
 app.listen(5000);
